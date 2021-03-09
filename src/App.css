@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+ul {
+  list-style-type: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboard-container {
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1rem;
+  width: 70%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.final-image{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+
+.cyling-image{
+    height: 270px;
+    width: 370px;
+    transition: transform .2s;
+    margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cyling-image:hover{
+  transform: scale(1.1);
 }
+
+.some-text{
+  padding: 20px;
+  color: aliceblue;
+}
+
+.font-size{
+  font-size: 20px;
+}
+.colorchange{
+   color: #D69202;
+}
+.themes{
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.footer{
+  display: flex;
+  width: 90%;
+}
+.BangloreWalks{
+  color: black;
+  font-size: 20px;
+}
+
+.fluid{
+  display: flex;
+  width: 60%;
+}
+.footersize{
+  font-size: 20px;
+}
+.eventmove{
+  margin-left: 50px;
+}
+.events{
+  font-size: 14px;
+ 
+  margin-right: 20px;
+}
+.news{
+  font-size: 14px;
+}
+
+.months{
+  color: grey;
+}
+
+.underline{
+  text-decoration: underline;
+  color: black;
+} 
+hr.new5 {
+  border-top: 1px solid black;
+}
+.brand{
+  margin-left: 10px;
+  color: gray;
+  font-size: 16px;
+}
+.footerdistance{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.socialapps{
+   margin-left: 8px;
+   font-size: large;
+   cursor: pointer;
+   transition: width 2s;
+}
+

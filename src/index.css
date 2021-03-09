@@ -11,3 +11,337 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dashboardbgcolor{
+  background-color: black;
+}
+
+.removebullets{
+  list-style-type:none;
+}
+.moveright{
+  float: right;
+  font-size: 25px;
+  margin-right: 50px;
+}
+.moveright:hover{
+  text-decoration: none;
+}
+.moveleft{
+    float: left;
+    font-size: 25px;
+}
+.moveleft:hover{
+  text-decoration: none;
+}
+
+.dashboardborder{
+  border: 1px solid;
+}
+
+.layer{
+  /* display: block;
+  position: relative; */
+ 
+  width: 1031px;
+  height: 500px;
+  margin-bottom: -24px;
+}
+
+.brandicon{
+  position: absolute;
+  top: 10%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 18px;
+  
+}
+.brandcolor{
+  padding: 8px;
+  color:white;
+}
+.faicons{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 20px;
+}
+.searchicon {
+  margin-right: 1rem;
+}
+.textonimage{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-60%, -50%);
+  color: beige;
+}
+.makealert{
+  display: flex;
+  position: absolute;
+  bottom: 12%;
+  right: 1%;
+  transform: translate(-60%, -50%);
+  /* border: 1px solid red; */
+  height: 100px;
+  width: 550px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.alertmsgs{
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.alertmsgone{
+  color: gray;
+}
+.alertmsgtwo{
+  font-size: large;
+  color: black;
+}
+
+.closeicon{
+  font-size: 25px;
+  margin-left: 6px;
+  color: #FFB6C1;
+  
+}
+.increasize{
+  font-size: 20px;
+  width: 55%;
+}
+
+.jayanagar{
+  position: absolute;
+  top: 40%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.yelahankarailway{
+  position: absolute;
+  top: 28%;
+  right: 21%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.madrasroad{
+  position: absolute;
+  top: 74%;
+  right: 12%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.ongoing-images img{
+  width: 450px;
+  height: 230px;
+  
+}
+
+.ongoing-images-container {
+  transition: transform 0.5s;
+  display: flex;
+  cursor: pointer;
+  margin-left: 54px;
+
+}
+
+.zoomin {
+  transform: scale(0.5); 
+}
+
+.zoomout {
+  transform: scale(1);
+}
+
+.firstimage{
+  height: 460px !important;
+}
+
+.ongoing-projects-title{
+  text-align: center;
+  font-style: italic;
+  color: aliceblue;
+  font-size: large;
+}
+
+.corousel-container{
+  margin-top: 4rem;
+  display: flex;
+  height: 320px;
+  margin-left: 30px;
+  color : aliceblue;
+}
+
+.corousel-images-container {
+  position: relative;
+  width: 55%;
+}
+
+.corousel-image{
+  position: absolute;
+  height: 300px;
+  width: 390px;
+}
+
+.corousel-image.img-0 {
+  height: 220px;
+  top: 50px;
+}
+
+.corousel-image.img-1 {
+  left: 20px;
+  height: 240px;
+  top: 40px;
+}
+
+.corousel-image.img-2 {
+  left: 40px;
+  height: 260px;
+  top: 30px;
+}
+
+.corousel-image.img-3 {
+  left: 60px;
+  height: 280px;
+  top: 20px;
+}
+
+.corousel-image.img-4 {
+  left: 80px;
+  height: 300px;
+}
+
+.historycontainer{
+  top: 10px !important;
+  margin-left: 20px;
+}
+
+.historytable{
+  margin-left: 16px;
+}
+
+.clickhere{
+  top: 2%;
+  border: 1px solid;
+  padding-left: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color:green;
+  color: aliceblue;
+  
+}
+.parent{
+  flex-direction: row !important;
+}
+
+.parallax-section{
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .layer{
+    width: 100%;
+    margin-top:69px;
+    margin-bottom: -23px;
+  }
+  .ongoing-images {
+    position: relative;
+  }
+  .jayanagar{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+  }
+  .yelahankarailway{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+  }
+  .madrasroad{
+    position: absolute;
+    bottom: 25%;
+    left: 37%;
+  }
+  .cycling-image:hover{
+    transition: transform .2s;
+  }
+  .dashboardborder{
+      border: none;
+  }
+  .dashboard-container{
+    margin: 0px !important;
+    width: 322% !important;
+    margin-top: 0px !important;
+    padding: 0rem !important;
+
+  }
+  .faicons{
+    right: 0% !important;
+    font-size: 20px !important;
+    top: 110px;
+  }
+
+  .searchicon {
+    margin-right: 1rem;
+  }
+
+  .fluid{
+    display: flex;
+  }
+  .news{
+    margin-left: 55px;
+  }
+ .eventmove{
+    margin-left: 75%;
+    }
+ .brandicon{
+      top: 110px;
+    }
+
+ .textonimage{
+      position: absolute;
+      transform: translate(-47%);
+      top: 65%;
+      left:34%;
+    }
+
+  .makealert{
+    left: 15%;
+    transform: translate(58%,-70%);
+   
+  }
+}
+
+    
+
+    
+     
+   
+    
+  
+
+   
+
+    
+   
+
+   
+   
+    
+
+
+
